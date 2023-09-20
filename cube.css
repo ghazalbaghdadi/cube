@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(233, 230, 230);
+    box-sizing: border-box;
+}
+
+.cube{
+    background-color: white;
+    box-shadow: 0 0 3px 3px rgb(221, 220, 220);
+    width: 200px;
+    height: 150px;
+    margin: 1rem;
+    margin-top: 2rem;
+    position: relative;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box{
+    background-color:rgb(210, 131, 241);
+    width: 120px;
+    height: 120px;
+    transition: 0.3s ;
+    position: absolute;
+    top: 1rem;
+    z-index: 2;
+}
+
+.one:hover{
+transform: rotate(45deg);
+background-color:rgba(210, 131, 241, 0.767);
+}
+
+.purpel{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    background-color: rgba(224, 223, 223, 0.897);
+    width: 120px;
+    height: 120px;
+    margin-left: 2.5rem;
+}
+
+.two:hover{
+    background-color:rgba(210, 131, 241, 0.767);
+    transform: rotateX(45deg);
+}
+
+.three:hover{
+    background-color: rgba(210, 131, 241, 0.767);
+    transform: rotateY(45deg);
+}
+
+.four:hover{
+    background-color: rgba(210, 131, 241, 0.616);
+    transform: scale(2)
+}
+
+.five:hover{
+    background-color: rgba(210, 131, 241, 0.637);
+    transform: scaleX(1.7)
+}
+
+.ten:hover{
+    background-color: rgba(210, 131, 241, 0.767);
+    transform: translate(50px)
+}
+
+.nine:hover{
+    background-color: rgba(210, 131, 241, 0.767);
+    transform: translate(50px , 30px)
+}
+
+.eight:hover{
+    background-color: rgba(210, 131, 241, 0.767);
+    transform: skewY(50deg)
+}
+
+.seven:hover{
+    background-color: rgba(210, 131, 241, 0.767);
+    transform: skew(50deg)
+}
+
+.six:hover{
+    background-color: rgba(210, 131, 241, 0.767);
+    transform: scale(1, 2)
+}
+
+.eleven:hover{
+    background-color: rgba(210, 131, 241, 0.767);
+    transform: translateY(45px);
+}
+
+.twelve:hover{
+    background-color: rgba(210, 131, 241, 0.767);
+     transform: skewY(50deg) scale(2) translateY(-30px) translateX(30px); 
+}
+
+.thirteen:hover{
+    background-color: rgba(210, 131, 241, 0.767);
+    transform: perspective(100px) rotateX(40deg);
+}
+
+.fourteen:hover{
+    background-color: rgba(210, 131, 241, 0.767);
+    transform: perspective(100px) rotateY(40deg);
+}
+
+
+.fifteen:hover{
+    background-color: rgba(210, 131, 241, 0.767);
+    transform-origin: top right;
+    transform: rotate(50deg);
+}
+
+.sixteen:hover{
+    background-color: rgba(210, 131, 241, 0.767);
+    transform-origin: bottom left;
+    transform: rotate(50deg);
+}
+
+.seventeen:hover{
+        background-color: rgba(210, 131, 241, 0.767);
+        transform-origin: bottom;
+        transform: perspective(100px) rotateX(25deg);
+}
+
+.eightteen:hover{
+    background-color: rgba(210, 131, 241, 0.767);
+    transform-origin: top;
+    transform: perspective(300px) rotateX(45deg);
+}
+
+.nineteen:hover{
+    background-color: rgba(210, 131, 241, 0.767);
+    transform-origin: left;
+    transform: perspective(400px) rotateY(40deg);
+}
+
+.tfour:hover{
+    background-color: rgba(210, 131, 241, 0.767);
+    transform-origin: left;
+    transform: perspective(200px) scaleX(1.8);
+}
+
+.tthree:hover{
+    background-color: rgba(210, 131, 241, 0.767);
+    transform-origin: right;
+    transform: perspective(200px) scaleX(1.8);
+}
+
+.ttwo:hover{
+    background-color: rgba(210, 131, 241, 0.767);
+    transform: perspective(200px) scale(1.8);
+    transform-origin: bottom left;
+}
+.tone:hover{
+    background-color: rgba(210, 131, 241, 0.767);
+    transform: perspective(200px) scale(1.8);
+    transform-origin: top right;
+}
+
+.twenty:hover{
+    background-color: rgba(210, 131, 241, 0.767);
+    transform-origin: right ;
+    transform: perspective(400px) rotateY(60deg);
+}
+
+.tfive:hover{
+    background-color: rgba(210, 131, 241, 0.767);
+    transform-origin: top;
+    transform: perspective(200px) scaleY(1.8);
+}
+
+.tsix:hover{
+    background-color: rgba(210, 131, 241, 0.767);
+    transform-origin: bottom;
+    transform: perspective(200px) scaleY(1.8);
+}
